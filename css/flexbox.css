@@ -103,31 +103,31 @@
    font-size: 0.8rem;
 }
 
-/* ---------- 3. CARDS DE SERVIÇOS ---------- */
-/* .cards-servicos, .card-servico, .card-rodape */
 .cards-servicos {
    display: flex;
    flex-wrap: wrap;
    gap: 1.5rem;
 }
 
-.cards-servico {
+.card-servico {
    position: relative;
    flex: 1 1 240px;
    display: flex;
    flex-direction: column;
    gap: 0.9rem;
    padding: 2rem 1.7rem;
-   background-color: var(--grafite);
+   background: var(--grafite);
    border: 1px solid var(--cinza);
    transition: transform 0.25s, border-color 0.25;
 }
+
 .cards-servico:hover {
    transform: translateY(-6px);
    border-color: var(--ouro);
 }
 /* ---------- 4. PLANOS ---------- */
 /* .planos, .plano, .plano-destaque */
+
 .card-numero {
    font-family: var(--fonte-titulo);
    font-size: 2.4rem;
